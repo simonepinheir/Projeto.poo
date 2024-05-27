@@ -10,6 +10,6 @@ public class Bolsista extends Aluno{
         this.bolsa = bolsa;
 }
 	  public void pagarMensalidade() {
-	        System.out.println(nome + " é bolsista, a mensalidade foi paga.");
+	        System.out.println(getNome() + " é bolsista, a mensalidade foi paga.");
 	    }
 	}
