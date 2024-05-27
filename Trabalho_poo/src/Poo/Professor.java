@@ -1,9 +1,11 @@
 package Poo;
 
+public class Professor{
 private float centro;
+private String nome;
 
 public Professor(String nome, String cpf, int idade, float centro) {
-    super(nome, cpf, idade);
+    super();
     this.centro = centro;
 }
 

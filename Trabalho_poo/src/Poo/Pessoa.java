@@ -2,7 +2,6 @@ package Poo;
 
 public abstract class Pessoa {
 
-}
 private String nome;
 private String cpf;
 private int idade;
@@ -37,6 +36,10 @@ public void incrementarIdade() {
 public void fazerAniversario() {
     this.incrementarIdade();
     System.out.println("Parabéns " + this.nome + "! Você completou " + this.idade + " anos!");
+}
+public void pagarMensalidade() {
+	// TODO Auto-generated method stub
+	
 }
 }
 

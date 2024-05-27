@@ -2,7 +2,6 @@ package Poo;
 
 public class Disciplina {
 
-}
 private String nome;
 private String codigo;
 private int semestre;
